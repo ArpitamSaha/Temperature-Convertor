@@ -1,12 +1,7 @@
-// Temperature variable 
 const celciusInput = document.getElementById("celcius");
 const fahrenheitInput = document.getElementById("fahrenheit");
 const kelvinInput = document.getElementById("kelvin");
-
-
-
 const inputs = document.getElementsByClassName("input");
-
 for (let i = 0; i < inputs.length; i++) {
     let input = inputs[i];
 
